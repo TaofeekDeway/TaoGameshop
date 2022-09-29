@@ -1,4 +1,12 @@
 /* NEW CAROUSEL CLASS */
+.mega-container {
+    background-color: #efefef;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 25px 0;
+    animation: fadeIn-data-v-1b272f6a 1s ease;
+    position: relative;
+}
 
 #nomt {
     margin-top: 0px;
@@ -13,8 +21,7 @@
 
 /* SEARCH BAR */
 .navbar-toggler {
-    /* border-color: green; */
-    background-color: green;
+    border-color: green;
 }
 
 .searchbar {
