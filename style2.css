@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+}
+
+.container_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container_div_child {
+    width: 40%;
+    height: auto;
+    background: #efefef;
+}
+
+@media (max-width: 720px) {
+    .container_div_child {
+        width: 80%;
+        height: auto;
+        background: #efefef;
+    }
+}
